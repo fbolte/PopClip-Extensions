@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>show-result</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Shell Script File</key>
+			<string>convert.php</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Convert</string>
+				<key>de</key>
+				<string>Umrechnen</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>me.fab1An.popclip.extension.convert</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Convert</string>
+		<key>de</key>
+		<string>Umrechnen</string>
+	</dict>
+	<key>Required Software Version</key>
+	<integer>2</integer>
+</dict>
+</plist>
